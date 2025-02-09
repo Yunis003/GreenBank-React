@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo-header{
+    font-size: 1.5rem;
+    color: #FFF;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    >li a{
+        font-weight: 500;
+    }
+}
+.header-btn{
+    background-color: transparent;
+    padding: 10px 30px;
+    color: #2BB32A;
+    border-radius: 3.5rem;
+    border: 1px solid #2BB32A;
+    font-weight: 800;
+}
