@@ -1,0 +1,10 @@
+.partnersContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    & img:hover{
+        transform: scale(1.05);
+        filter: brightness(50);
+        cursor: pointer;
+    }
+}

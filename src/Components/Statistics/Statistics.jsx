@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import '../Partials/_statistics.scss';
-
+import '../Partials/_main.scss';
 const Statistics = () => {
     const [counts, setCounts] = useState({
         years: 0,
